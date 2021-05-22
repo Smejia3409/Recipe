@@ -1,0 +1,5 @@
+let api = "https://api.openweathermap.org/data/2.5/weather?q=" + city +
+"&appid=c6cd216d1255a86adcf7ee2b5fb60213&units=imperial"; fetch(api) .then((get)
+=> get.json()) .then((data) => { let name = data["name"]; let temp =
+data["main"]["temp"]; let info = name + "+" + temp; console.log(info); })
+.catch((Error) => { alert("You entered an invaild city, please try again"); });

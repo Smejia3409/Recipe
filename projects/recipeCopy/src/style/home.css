@@ -1,0 +1,74 @@
+#home {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+#homePageTitle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2em;
+  font: bolder;
+  color: green;
+}
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap");
+.titles {
+  font-size: 2.5em;
+  font-family: "Shippori Mincho B1", serif;
+}
+
+#featuredRecipes {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#featuredRecipeCards {
+  position: relative;
+  width: 100%;
+}
+
+.gridItem {
+  background-color: white;
+  border: 1px solid #ffc171;
+}
+
+.homeRecipeGrid {
+  width: 100%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+/*
+Chartreuse  yellow
+#D7E47B
+
+Peach    orange peach color
+#FFC171
+
+Misty Blue   grey bluish
+#A3B2BA
+
+Cinnabar  red
+#FF4A3B
+
+*/
+
+/*
+
+F0EDE6
+687B8A
+8F9D9F
+3A4F77
+2F2D3F
+
+Perosonl web color idea
+
+*/

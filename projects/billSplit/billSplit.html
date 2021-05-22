@@ -1,0 +1,74 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Bill Split</title>
+
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/974df8b1b2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../return.css" />
+  </head>
+  <body>
+    <a href="/" class="return"> <p>...Go back home</p> </a>
+
+    <div id="container">
+      <div id="user">
+        <div id="user-components">
+          <div>
+            <p id="title" style="text-align: center">Bill Split</p>
+          </div>
+
+          <label for="bill">Bill amount </label>
+
+          <div>
+            <input id="bill" type="number" placeholder="$" />
+          </div>
+          <br />
+          <div>
+            <label for="bill-split"># of people</label><br />
+            <input type="number" id="number" placeholder="#" />
+          </div>
+          <div>
+            <br />
+            <button id="calculate-btn" onclick="calculation()">
+              Calculate
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="display">
+        <p>Each person pays</p>
+        <div>
+          <h2 id="amount-view"></h2>
+        </div>
+        <div id="tip-display">
+          <p id="click-tip">Tip per person</p>
+
+          <div id="tip-amount">
+            <div>
+              <h5 id="fifteen"></h5>
+              <h5 id="twenty"></h5>
+              <h5 id="twentyFive"></h5>
+            </div>
+          </div>
+        </div>
+        <button onclick="window.location.reload();" id="other-amount">
+          Enter another amount
+        </button>
+      </div>
+    </div>
+
+    <script></script>
+  </body>
+</html>

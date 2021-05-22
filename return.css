@@ -1,0 +1,12 @@
+.return {
+  color: red;
+}
+
+.return:link {
+  text-decoration: none;
+  color: white;
+}
+
+.return:visited {
+  color: red;
+}
