@@ -1,0 +1,36 @@
+#recipes {
+  height: 100%;
+  width: 100%;
+}
+
+#select {
+  width: 100%;
+  height: 100%;
+}
+
+#choices {
+  width: 100%;
+}
+
+#meatSelectTitle {
+  color: #ff4a3b;
+}
+
+#recipeComp {
+  width: 100%;
+}
+/* RecipeCards css  */
+.recipeGrid {
+  width: 100%;
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.btnPic,
+.meatChoiceBtn {
+  height: 100px;
+  width: 100px;
+  border-radius: 25px;
+}

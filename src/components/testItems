@@ -1,0 +1,17 @@
+    <div key={label} className="card" style={{ height: "100%" }}>
+      <Card className="cardFront" key={label}>
+        <Card.Img variant="top" style={{ width: "100%" }} src={img} />
+        <Card.Body style={{ height: "100%" }}>
+          <Card.Title>{label}</Card.Title>
+          <Card.Subtitle className="mb-2 text-muted">
+            Calories: {Math.round(calories)} <br />
+          </Card.Subtitle>
+
+          <Card.Text>Cook time:{cookTime} Mins</Card.Text>
+        </Card.Body>
+      </Card>
+
+
+
+      
+    </div>
