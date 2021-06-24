@@ -1,4 +1,4 @@
-#Recipe App
+# Recipe App
 
 Recipe web app build using react and bootstrap that show different recipes from edamam api
 
