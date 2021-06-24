@@ -1,3 +1,10 @@
+Recipe web app build using react that show different recipes from ednam api
+
+React hooks used:
+- useEffect
+- useState
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
