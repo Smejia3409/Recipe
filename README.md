@@ -1,4 +1,4 @@
-Recipe web app build using react that show different recipes from edamam api
+Recipe web app build using react and bootstrap that show different recipes from edamam api
 
 React hooks used:
 - useEffect
