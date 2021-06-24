@@ -1,4 +1,4 @@
-Recipe web app build using react that show different recipes from ednam api
+Recipe web app build using react that show different recipes from edamam api
 
 React hooks used:
 - useEffect
